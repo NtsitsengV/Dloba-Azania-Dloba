@@ -112,8 +112,10 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
-  background-image: url(../images/hero-bg.png);
+  height: 30vh;
+  width: 30px;
+  background-image: url(../public/images/Dloba Azania 2(1).png);
+  transform: rotate()
 }
 
 .sub_page {
