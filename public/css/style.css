@@ -72,7 +72,7 @@ body {
 }
 
 .header_section .active a {
-  color: #a4ce67!important;
+  color: #63B3EA!important;
 }
 .header_section .call_btn {
   margin-left: auto;
@@ -203,7 +203,7 @@ a:focus {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #8ac13d;
+  background-color: #63B3EA;
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
@@ -237,7 +237,7 @@ a:focus {
 }
 
 .custom_menu-container {
-  background-color: #8ac13d;
+  background-color: #63B3EA;
 }
 .custom_menu-container .custom_menu {
   display: flex;
@@ -303,7 +303,7 @@ a:focus {
   background-color: #c769ba;
 }
 .do_section .content-box.bg-green {
-  background-color: #8ac13d;
+  background-color:#63B3EA;
 }
 
 .skill_section {
@@ -401,7 +401,7 @@ a:focus {
 }
 .client_section .client_box .client-id .name h5 {
   text-transform: uppercase;
-  color: #8ac13d;
+  color: #63B3EA;
   font-weight: bold;
 }
 .client_section .client_box .detail {
@@ -423,7 +423,7 @@ a:focus {
 }
 
 .contact_section {
-  background-color: #8ac13d;
+  background-color: #63B3EA;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -518,7 +518,7 @@ a:focus {
   color: #101010;
 }
 .info_form button {
-  background-color:#8ac13d;
+  background-color:#63B3EA;
   padding: 8px 35px;
   outline: none;
   border: none;
@@ -527,7 +527,7 @@ a:focus {
   text-transform: uppercase;
 }
 .info_form button:hover {
-  background-color: #8ac13d;
+  background-color: #63B3EA;
 }
 
 .info_social .social_container {
