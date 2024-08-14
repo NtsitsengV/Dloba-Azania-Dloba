@@ -20,7 +20,9 @@ $black:#000000;
   font-family: 'Open Sans', sans-serif;
 }
 
-
+h1,
+h2,
+h3 {}
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $radius) {
   display: inline-block;
@@ -44,8 +46,7 @@ $black:#000000;
 body {
   @include main-font;
   color: #101010;
-  background-color: #ffffff ;
-  background-image: url("public/images/Dloba Azania.png");
+  background-color: #ffffff;
 }
 
 .layout_padding {
@@ -111,10 +112,8 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 30vh;
-  width: 30px;
-  background-image: url("../public/images/Dloba Azania 2(1).png");
-  transform: rotate()
+  height: 100vh;
+  background-image: url(../images/hero-bg.png);
 }
 
 .sub_page {
@@ -130,7 +129,7 @@ body {
 .header_section {
   .active {
     a {
-      color: red;
+      color: $green1 !important;
     }
   }
 
@@ -152,7 +151,6 @@ body {
 
 .header_section .nav_container {
   margin: 0 auto;
-  position: relative;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
@@ -178,6 +176,16 @@ body {
   }
 }
 
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
 
 .btn,
 .btn:focus {
@@ -188,7 +196,7 @@ body {
 
 
 .nav_search-btn {
-  background-image: url("../images/search-icon-black.png");
+  background-image: url(../images/search-icon-black.png);
   background-size: 22px;
   background-repeat: no-repeat;
   width: 35px;
@@ -224,7 +232,7 @@ body {
 
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url("../images/menu.png");
+  background-image: url(../images/menu.png);
   background-size: 55px;
 }
 
@@ -276,6 +284,8 @@ body {
     transform: translate(-50%, 55px);
   }
 
+  .carousel-control-next {}
+
 }
 
 
@@ -294,18 +304,18 @@ body {
 }
 
 .carousel-control-prev {
-  background-image: url("../images/left-arrow-black.png");
+  background-image: url(../images/left-arrow-black.png);
 
   &:hover {
-    background-image: url("../images/left-arrow-white.png)";
+    background-image: url(../images/left-arrow-white.png);
   }
 }
 
 .carousel-control-next {
-  background-image: url("../images/right-arrow-black.png");
+  background-image: url(../images/right-arrow-black.png);
 
   &:hover {
-    background-image: url("../images/right-arrow-white.png");
+    background-image: url(../images/right-arrow-white.png);
   }
 }
 
