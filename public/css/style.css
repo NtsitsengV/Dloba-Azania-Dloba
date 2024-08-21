@@ -4,6 +4,13 @@ body {
   background-color: #ffffff;
 }
 
+.paragraph {
+ 
+ margin-left: 380px;
+ padding-bottom: 400px;
+ color: #bbbbbb;
+ }
+
 .layout_padding {
   padding: 75px 0;
 }
@@ -66,7 +73,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.png);
+  background-image: url(../images/public/images/flat-design-polygonal-background_23-2148907249.jpg);
 }
 
 .sub_page .hero_area {
@@ -368,9 +375,10 @@ a:focus {
 }
 
 .skill_section {
-  background-image: url(../images/skill-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/zig-zag-red-lines-background_78370-2420.jpg");
+  background-size: 1000px;
+  background-repeat: repeat;
+  background-color: ;
 }
 
 .skill_section .row .col-md-3 {
