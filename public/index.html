@@ -332,216 +332,7 @@
 
   <!-- end skill section -->
 
-  <!--Slider section start
-  <style>
-    #frame {
-        margin: 0 auto;
-        width: 800px;
-        max-width: 100%;
-        text-align: center;
-    }
 
-    #frame input[type=radio] {
-        display: none;
-    }
-
-    #frame label {
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    #slides {
-        padding: 10px;
-        border: 15px solid rgb(2, 116, 2);
-        background: rgb(198, 198, 211);
-        position: relative;
-        z-index: 1;
-    }
-
-    #overflow {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    #frame1:checked~#slides .inner {
-        margin-left: 0;
-    }
-
-    #frame2:checked~#slides .inner {
-        margin-left: -100%;
-    }
-
-    #frame3:checked~#slides .inner {
-        margin-left: -200%;
-    }
-
-    #frame4:checked~#slides .inner {
-        margin-left: -300%;
-    }
-
-    #slides .inner {
-        transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-        width: 400%;
-        line-height: 0;
-        height: 300px;
-    }
-
-    #slides .frame {
-        width: 50%;
-        float: left;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        color: #FFF;
-    }
-
-    #slides .frame_1 {
-        background: rgb(247, 245, 248);
-    }
-
-    #slides .frame_2 {
-        background: rgb(253, 252, 251);
-    }
-
-    #slides .frame_3 {
-        background: rgb(250, 246, 250);
-    }
-
-    #slides .frame_4 {
-        background: rgb(243, 242, 242);
-    }
-
-    #controls {
-        margin: -180px 0 0 0;
-        width: 100%;
-        height: 50px;
-        z-index: 3;
-        position: relative;
-    }
-
-    #controls label {
-        transition: opacity 0.2s ease-out;
-        display: none;
-        width: 50px;
-        height: 50px;
-        opacity: .4;
-    }
-
-    #controls label:hover {
-        opacity: 1;
-    }
-
-    #frame1:checked~#controls label:nth-child(2),
-    #frame2:checked~#controls label:nth-child(3),
-    #frame3:checked~#controls label:nth-child(4),
-    #frame4:checked~#controls label:nth-child(1) {
-        background:
-            url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
-        float: right;
-        margin: 0 -50px 0 0;
-        display: block;
-    }
-
-    #frame1:checked~#controls label:nth-last-child(2),
-    #frame2:checked~#controls label:nth-last-child(3),
-    #frame3:checked~#controls label:nth-last-child(4),
-    #frame4:checked~#controls label:nth-last-child(1) {
-        background:
-            url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
-        float: left;
-        margin: 0 0 0 -50px;
-        display: block;
-    }
-
-    #bullets {
-        margin: 150px 0 0;
-        text-align: center;
-    }
-
-    #bullets label {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        border-radius: 100%;
-        background: #ccc;
-        margin: 0 10px;
-    }
-
-    #frame1:checked~#bullets label:nth-child(1),
-    #frame2:checked~#bullets label:nth-child(2),
-    #frame3:checked~#bullets label:nth-child(3),
-    #frame4:checked~#bullets label:nth-child(4) {
-        background: #444;
-    }
-
-    @media screen and (max-width: 900px) {
-
-        #frame1:checked~#controls label:nth-child(2),
-        #frame2:checked~#controls label:nth-child(3),
-        #frame3:checked~#controls label:nth-child(4),
-        #frame4:checked~#controls label:nth-child(1),
-        #frame1:checked~#controls label:nth-last-child(2),
-        #frame2:checked~#controls label:nth-last-child(3),
-        #frame3:checked~#controls label:nth-last-child(4),
-        #frame4:checked~#controls label:nth-last-child(1) {
-            margin: 0;
-        }
-
-        #slides {
-            max-width: calc(100% - 140px);
-            margin: 0 auto;
-        }
-    }
-</style>
-<section>
-  <div id="frame">
-    <input type="radio" name="frame" id="frame1" checked />
-    <input type="radio" name="frame" id="frame2" />
-    <input type="radio" name="frame" id="frame3" />
-    <input type="radio" name="frame" id="frame4" />
-    <div id="slides">
-        <div id="overflow">
-            <div class="inner">
-                <div class="frame frame_1">
-                    <div class="frame-content">
-                        <h2>Slide 1</h2>
-                    </div>
-                </div>
-                <div class="frame frame_2">
-                    <div class="frame-content">
-                        <h2>Slide 2</h2>
-                    </div>
-                </div>
-                <div class="frame frame_3">
-                    <div class="frame-content">
-                        <h2>Slide 3</h2>
-                    </div>
-                </div>
-                <div class="frame frame_4">
-                    <div class="frame-content">
-                        <h2>Slide 4</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="controls">
-        <label for="frame1"></label>
-        <label for="frame2"></label>
-        <label for="frame3"></label>
-        <label for="frame4"></label>
-    </div>
-    <div id="bullets">
-        <label for="frame1"></label>
-        <label for="frame2"></label>
-        <label for="frame3"></label>
-        <label for="frame4"></label>
-    </div>
-  </div>
-</section>
-
-  
   <!-- portfolio section -->
   <section class="portfolio_section layout_padding" id="portfolio">
     <div class="container">
@@ -676,7 +467,7 @@
         </div>
         <div class="col-md-6 px-0">
           <div class="img-box">
-            <img src="public/images/vecteezy_contact-us-buttons-clipart-design-illustration_9397810.png" alt="public/images/vecteezy_contact-us-buttons-clipart-design-illustration_9397810.png" class="w-20" />
+            <img src="images/contact.jpg" alt="" class="w-100" />
           </div>
         </div>
       </div>
@@ -719,6 +510,7 @@
             </ul>
           </div>
         </div>
+    
         <div class="col-md-6 col-lg-3">
           <div class="info_contact">
             <h4>
@@ -744,7 +536,7 @@
             </div>
           </div>
         </div>
-
+        
         <div class="col-md-6 col-lg-3">
           <div class="info_social">
             <h4>
@@ -753,14 +545,14 @@
             <div class="social_container">
               <div>
                 <a href="https://www.facebook.com/profile.php?id=100091812750613" target="_blank">
-                  <img src="images/facebook-logo.png" alt="https://www.facebook.com/" />
+                  <img src="images/facebook-logo.png" alt="Facebook" />
                 </a>
               </div>
 
               <div>
                 <a href="https://x.com/DlobaAzania" target="_blank">
-                  <img src="images/twitter-logo.png" alt="https://x.com/" />
-                </a>
+                  <img src="images/twitter-logo.png" alt="X" />
+                </a> 
               </div>
               
             </div>

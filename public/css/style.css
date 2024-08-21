@@ -384,7 +384,7 @@ a:focus {
   background-image: url("../images/zig-zag-red-lines-background_78370-2420.jpg");
   background-size: 1000px;
   background-repeat: repeat;
-  background-color: ;
+  background-color: transparent;
 }
 
 .skill_section .row .col-md-3 {
@@ -539,7 +539,7 @@ a:focus {
 }
 
 .contact_section {
-  background-color: #26a071;
+  background-color: #5CB1EA;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -595,7 +595,7 @@ a:focus {
 }
 
 .contact_section button {
-  background-color: #fa0909;
+  background-color: #971D8A;
   padding: 15px 55px;
   outline: none;
   border: none;
@@ -605,11 +605,11 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: #cc0404;
+  background-color: #EB038A;
 }
 
 .info_section {
-  background-color: #201f33;
+  background-color: #212029;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
@@ -624,7 +624,7 @@ a:focus {
 }
 
 .info_links ul .active::before {
-  background-color: #0caa7d;
+  background-color: #5CB1EA;
 }
 
 .info_links ul li {
@@ -660,7 +660,7 @@ a:focus {
 }
 
 .info_form button {
-  background-color: #0caa7d;
+  background-color: #5CB1EA;
   padding: 8px 35px;
   outline: none;
   border: none;
@@ -670,7 +670,7 @@ a:focus {
 }
 
 .info_form button:hover {
-  background-color: #097a5a;
+  background-color: #5CB1EA;
 }
 
 .info_social .social_container {
@@ -782,7 +782,7 @@ input[type="radio"]:checked + .navigation .nav-button {
 }
 /* footer section*/
 .footer_section {
-  background-color: #201f33;
+  background-color: #212029;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
