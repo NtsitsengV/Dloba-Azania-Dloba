@@ -1,21 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   color: #101010;
   background-color: #ffffff;
 }
-
-.paragraph {
- 
- margin-left: 380px;
- padding-bottom: 400px;
- color: #bbbbbb;
- }
 
 .layout_padding {
   padding: 75px 0;
@@ -79,7 +66,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/public/images/flat-design-polygonal-background_23-2148907249.jpg);
+  background-image: url(../images/hero-bg.png);
 }
 
 .sub_page .hero_area {
@@ -381,10 +368,9 @@ a:focus {
 }
 
 .skill_section {
-  background-image: url("../images/zig-zag-red-lines-background_78370-2420.jpg");
-  background-size: 1000px;
-  background-repeat: repeat;
-  background-color: ;
+  background-image: url(../images/skill-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .skill_section .row .col-md-3 {
@@ -435,12 +421,17 @@ a:focus {
 
 .portfolio_section .box {
   position: relative;
-  border-radius: 10px;
+  border-radius:40px;
   overflow: hidden;
 }
 
 .portfolio_section .box.b-1, .portfolio_section .box.b-4 {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+
+.portfolio_section .box.b-2, .portfolio_section .box.b-3 {
+  border-radius: 20px;
+  margin-bottom: 60px;
 }
 
 .portfolio_section .box img {
@@ -455,13 +446,14 @@ a:focus {
           transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #fcceed;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 48px;
   -webkit-filter: drop-shadow(8px 3px 8px #000000);
           filter: drop-shadow(8px 3px 8px #000000);
 }
 
+/*
 .client_section .custom_heading-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -537,9 +529,9 @@ a:focus {
 .client_section .carousel-control-next {
   right: -75px;
 }
-
+*/
 .contact_section {
-  background-color: #26a071;
+  background-color: #0ca57a;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -705,16 +697,16 @@ a:focus {
 /* styles.css */
 .slider {
   position: relative;
-  max-width: 600px;
+  max-width: 2100px;
   margin: auto;
   overflow: hidden;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #0b9ea8;
+  border-radius: 10px;
 }
 
 .slides {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 3s ease-in-out;
 }
 
 .slide {
@@ -737,13 +729,13 @@ input[type="radio"] {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .nav-button {
   width: 12px;
   height: 12px;
-  background-color: #bbb;
+  background-color: #5CB1EA;
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
@@ -778,8 +770,9 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + .navigation .nav-button {
-  background-color: #333;
+  background-color: #5CB1EA;
 }
+
 /* footer section*/
 .footer_section {
   background-color: #201f33;
