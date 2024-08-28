@@ -616,7 +616,7 @@ a:focus {
 }
 
 .contact_section button {
-  background-color: #fa0909;
+  background-color: #3f20ac;
   padding: 15px 55px;
   outline: none;
   border: none;
@@ -626,7 +626,7 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: #cc0404;
+  background-color: #05a575;
 }
 
 .info_section {
