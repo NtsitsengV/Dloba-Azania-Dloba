@@ -1,7 +1,44 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #5CB1EA;
+  background-image: url("../images/blue brick wall.jpg");
+}
+
+.paragraph {
+ 
+ margin-left: 380px;
+ padding-bottom: 400px;
+ color: whitesmoke;
+ font-size: 25px;
+ margin-top: -350px;
+ font-weight: bold;
+ }
+ h6 {
+  font-size: 20px;
+  color: #EB038A;
+  font-weight: bold;
+
+ }
+ h3 {
+  font-size: 30px;
+  color: white;
+  padding: 6px;
+  
+ }
+ p1 {
+  font-size: 25px;
+  color: #88c337;
+  font-weight: bold;
+ }
+.img-box{
+  color: #f14725;
+}
+
+.ncediso {
+padding-top: 0px;
+  /* font-family: "Poppins", sans-serif;
   color: #101010;
-  background-color: #ffffff;
+  background-color: #ffffff; */
 }
 
 .layout_padding {
@@ -59,8 +96,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
-  background-image: url(../images/hero-bg.png);
+ 
 }
 
 .sub_page .hero_area {
@@ -284,8 +320,10 @@ a:focus {
   margin-top: 25px;
 }
 .about_section .detail-box a:hover {
-  background-color: #b00b03;
-  color: #ffffff;
+  background-color: #971D8A;
+  color: #f14725;
+  /* background-color: #b00b03;
+  color: #ffffff; */
 }
 
 .do_section .content-box {
@@ -307,9 +345,11 @@ a:focus {
 }
 
 .skill_section {
-  background-image: url(../images/skill-bg.jpg);
+  background-image: url("../images/background\ profile.png");
+  background-size: 10px;
+  /* ackground-image: url(../images/skill-bg.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .skill_section .row .col-md-3 {
   display: flex;
