@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #101010;
+  color: #5CB1EA;
   background-image: url("../images/blue brick wall.jpg");
 }
 
@@ -11,15 +11,18 @@ body {
  color: whitesmoke;
  font-size: 25px;
  margin-top: -350px;
+ font-weight: bold;
  }
  h6 {
   font-size: 20px;
-  color: white;
+  color: #EB038A;
+  font-weight: bold;
+
  }
- .phiwe {
-  font-size: 50px;
-  color: whitesmoke;
-  padding: 100px;
+ h3 {
+  font-size: 30px;
+  color: white;
+  padding: 6px;
   
  }
  p1 {
@@ -27,6 +30,13 @@ body {
   color: #88c337;
   font-weight: bold;
  }
+.img-box{
+  color: #f14725;
+}
+
+.ncediso {
+padding-top: 0px;
+}
 
 .layout_padding {
   padding: 75px 0;
@@ -89,8 +99,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
-  background-image: url(../images/hero-bg.png);
+ 
 }
 
 .sub_page .hero_area {
@@ -369,7 +378,7 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: #971D8A;
-  color: #ffffff;
+  color: #f14725;
 }
 
 .do_section .content-box {
@@ -397,10 +406,10 @@ a:focus {
 .skill_section {
   background-image: url("../images/background\ profile.png");
   background-size: 10px;
-  padding-bottom: 10px;
-  padding-top: -150px;
-  padding-bottom: -100px;
+  
+  
 }
+
 
 .skill_section .row .col-md-3 {
   display: -webkit-box;
