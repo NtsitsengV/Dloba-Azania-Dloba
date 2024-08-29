@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #5CB1EA;
+  color: #88c337;
   background-image: url("../images/blue brick wall.jpg");
 }
 
@@ -69,7 +69,7 @@ padding-top: 0px;
   display: flex;
 }
 .custom_heading-container h2 {
-  color: #000000;
+  color: whitesmoke;
   font-weight: 700;
   position: relative;
 }
@@ -108,7 +108,7 @@ padding-top: 0px;
 }
 
 .header_section .active a {
-  color: #0caa7d !important;
+  color: #88c337 !important;
 }
 .header_section .call_btn {
   margin-left: auto;
@@ -128,7 +128,7 @@ padding-top: 0px;
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #070101;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@ padding-top: 0px;
 .custom_nav-container .user_option .login_btn-container a {
   display: inline-block;
   padding: 10px 30px;
-  color: #070101;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -177,7 +177,7 @@ a:focus {
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: #0878a0;
+  color: #f14725;
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
@@ -219,7 +219,7 @@ a:focus {
   margin-top: 15px;
 }
 .slider_section .detail-box a:hover {
-  background-color: #b00b03;
+  background-color: #f14725;
   color: #ffffff;
 }
 .slider_section .img-box img {
@@ -239,7 +239,7 @@ a:focus {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #0caa7d;
+  background-color: #88c337;
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
@@ -273,7 +273,7 @@ a:focus {
 }
 
 .custom_menu-container {
-  background-color: #0caa7d;
+  background-color: #88c337;
 }
 .custom_menu-container .custom_menu {
   display: flex;
@@ -285,7 +285,7 @@ a:focus {
 }
 .custom_menu-container .custom_menu .navbar-nav .nav-link {
   padding: 15px 30px;
-  color: #ffffff;
+  color: whitesmoke;
   text-align: center;
 }
 .custom_menu-container .custom_menu .user_option {
@@ -314,7 +314,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #fb1004;
+  background-color: #f14725;
   color: #ffffff;
   border-radius: 10px;
   margin-top: 25px;
@@ -338,16 +338,14 @@ a:focus {
   margin: 15px;
 }
 .do_section .content-box.bg-red {
-  background-color: #fb1004;
+  background-color: #88c337;
 }
 .do_section .content-box.bg-green {
-  background-color: #0ca57a;
+  background-color: #88c337;
 }
 
 .skill_section {
-  background-image: url("../images/background\ profile.png");
-  background-size: 10px;
-  /* ackground-image: url(../images/skill-bg.jpg);
+  background-image: url(../images/skill-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat; */
 }
@@ -463,7 +461,7 @@ a:focus {
 }
 
 .contact_section {
-  background-color: #0ca57a;
+  background-color: #f14725;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -486,10 +484,10 @@ a:focus {
   border-radius: 25px;
   margin-bottom: 25px;
   padding-left: 25px;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #bbbbbb;
   outline: none;
-  color: #101010;
+  color: #5CB1EA;
 }
 .contact_section input::-moz-placeholder {
   color: #131313;
@@ -501,7 +499,7 @@ a:focus {
   height: 120px;
 }
 .contact_section button {
-  background-color: #3f20ac;
+  background-color: #88c337;
   padding: 15px 55px;
   outline: none;
   border: none;
@@ -510,11 +508,11 @@ a:focus {
   font-family: "Roboto", sans-serif;
 }
 .contact_section button:hover {
-  background-color: #05a575;
+  background-color: #EB038A;
 }
 
 .info_section {
-  background-color: #201f33;
+  background-color: #5CB1EA;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
