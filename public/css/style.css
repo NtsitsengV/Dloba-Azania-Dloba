@@ -345,10 +345,7 @@ a:focus {
 }
 
 .skill_section {
- background-color: #88c337;
-  background-size: 5px;
-  padding-bottom: 10px;
-  /* background-image: url(../images/skill-bg.jpg);
+  background-image: url(../images/skill-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat; */
 }
